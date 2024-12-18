@@ -1,0 +1,213 @@
+/* General body styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #ece9e6, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    color: #333;
+}
+
+/* Container for the initial page */
+.container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Header (main question) */
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #444;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Buttons container (YES and NO buttons horizontally aligned) */
+.buttons-container {
+    display: flex;          /* Align buttons horizontally */
+    justify-content: center;/* Center buttons horizontally */
+    gap: 30px;              /* Adds space between the buttons */
+    margin-top: 40px;
+}
+
+/* Base styles for all buttons */
+button {
+    padding: 18px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    width: 180px;
+    outline: none;
+}
+
+/* YES button styles */
+#yesBtn {
+    background: linear-gradient(135deg, #00C9A7, #009688);
+    color: white;
+}
+
+#yesBtn:hover {
+    background: linear-gradient(135deg, #008577, #00796B);
+    transform: translateY(-3px);
+}
+
+#yesBtn:active {
+    transform: translateY(1px);
+}
+
+/* NO button styles */
+#noBtn {
+    position: absolute;
+    background: linear-gradient(135deg, #FF5F6D, #FFC371);
+    color: white;
+    padding: 18px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 180px;
+    outline: none;
+    left: 50%;  /* Center the button */
+    top: 50%;  /* Center the button */
+    transform: translate(-50%, -50%); /* Adjust the centering for better placement */
+}
+
+#noBtn:hover {
+    background: linear-gradient(135deg, #FF3F34, #FF5B00);
+    transform: translateY(-3px);
+}
+
+#noBtn:active {
+    transform: translateY(1px);
+}
+
+/* Result page styles */
+.resultPage {
+    display: none;
+    text-align: center;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    width: 80%;
+    max-width: 600px;
+}
+
+#resultText {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* NO button movement animation */
+#noBtn {
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Animation for the NO button when hovered */
+#noBtn:hover {
+    transform: scale(1.1) translateY(-3px);
+}
+
+/* Styling for the background gradient */
+body {
+    background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Typography for the page title */
+h1 {
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+/* Buttons container */
+.buttons-container {
+    margin-top: 40px;
+    display: flex; /* Ensures the buttons are horizontally aligned */
+    justify-content: center;  /* Align buttons in the center horizontally */
+    gap: 30px;  /* Space between YES and NO buttons */
+}
+
+/* Style for buttons */
+button {
+    padding: 18px 40px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+button:focus {
+    outline: none;
+}
+
+#yesBtn {
+    background: linear-gradient(135deg, #00C9A7, #009688);
+    color: white;
+}
+
+#yesBtn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #008577, #00796B);
+}
+
+#noBtn {
+    background: linear-gradient(135deg, #FF5F6D, #FFC371);
+    color: white;
+}
+
+#noBtn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #FF3F34, #FF5B00);
+}
+
+/* Styles for the result page */
+.resultPage {
+    display: none;
+    text-align: center;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    width: 80%;
+    max-width: 600px;
+}
+
+#resultText {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}

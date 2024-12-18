@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Invitation</title>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="refresh" content="60;url=https://example.com"> <!-- Redirects after 60 seconds -->
+</head>
+<body>
+    <div class="container">
+        <h1>Would you like to go on a date with me?</h1>
+        <div class="buttons-container">
+            <button id="yesBtn" class="action-btn">YES</button>
+            <button id="noBtn" class="action-btn" onmouseover="moveNoButton()">NO</button>
+        </div>
+    </div>
+
+    <!-- Result page that will be shown after clicking YES or NO -->
+    <div id="resultPage" class="resultPage">
+        <div id="resultText"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
