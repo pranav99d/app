@@ -8,7 +8,7 @@ const resultText = document.getElementById('resultText');
 yesBtn.addEventListener('click', function() {
     // Show the result page
     resultPage.style.display = 'block';
-    resultText.innerHTML = `<h2>Awesome!</h2><p>Let's meet at 7 PM at Central Park!</p>`;
+    resultText.innerHTML = `<h2>Awesome!</h2><p>I Know, you would say Yes, Let's meet at 6 PM at Murphies On 5th Jan, I will be taking break from insta, till stay in touch through WhatsApp. (No. - 9730697021)!</p>`;
 
     // Hide the initial container
     document.querySelector('.container').style.display = 'none';
